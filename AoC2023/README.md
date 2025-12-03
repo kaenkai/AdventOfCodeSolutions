@@ -1,6 +1,4 @@
-# adventofcode2023
-
-Advent of Code 2023
+# Advent of Code 2023
 
 * [**Day 1: Trebuchet?!**](Day1/README.md)
 * [**Day 2: Cube Conundrum**](Day2/README.md)
