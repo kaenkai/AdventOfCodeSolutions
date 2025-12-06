@@ -1,4 +1,4 @@
-def part1(sequence_file):
+def part1(sequence_file: str):
     """Part 1"""
     sequence = 0
     pos = 50
@@ -14,7 +14,7 @@ def part1(sequence_file):
             print(i.strip(), pos, counter)
 
 
-def part2(sequence_file):
+def part2(sequence_file: str):
     """Part 2"""
     sequence = 0
     pos = 50
@@ -39,4 +39,4 @@ def part2(sequence_file):
 
 
 if __name__ == '__main__':
-    part1('AoC2025/Day1/input.txt')  # 6312, 7371
+    part1('AoC2025/Day1/input.txt')
