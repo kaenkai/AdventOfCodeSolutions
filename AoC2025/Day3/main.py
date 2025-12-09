@@ -13,7 +13,8 @@ def part1(in_file: str) -> None:
     print('Output joltage:', output_joltage)
 
 
-def find_max(seq):
+def find_max(seq: str) -> int:
+    """Finds maximum in a number sequence"""
     s_max, i_max = int(seq[0]), 0
     for i, s in enumerate(seq):
         if int(s) > s_max:
