@@ -1,5 +1,3 @@
-from numpy import arange
-
 def isValid(seq: str) -> bool:
     """Checks if a String consists ONLY of a repeating sequence"""
     n: int = len(seq)
